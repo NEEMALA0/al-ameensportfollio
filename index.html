@@ -1,96 +1,220 @@
 <!DOCTYPE html>
+</html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script defer src="/_vercel/insights/script.js"></script>
-    <link
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Al-ameen's portfolio</title>
+    <link rel="stylesheet" href="porr.css">
+  <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css"
     />
-    <title>Vercel HTML Starter</title>
-    <meta
-      name="description"
-      content="High-performance HTML based website template."
-    />
-  </head>
-  <body>
-    <h1>Vercel HTML Starter</h1>
-    <p>
-      This template is a simple, but powerful single
-      <code>index.html</code> file deployed to
-      <a href="https://vercel.com">Vercel</a>. When your site is deployed, all
-      static assets (like HTML, JavaScript, CSS, images, and more) are deployed
-      globally to every
-      <a href="https://vercel.com/docs/concepts/edge-network/overview"
-        >Vercel Edge Network</a
-      >
-      region.
-    </p>
-    <h2>Simple, privacy-friendly analytics</h2>
-    <p>
-      Want to understand your visitor traffic? Vercel Analytics gives you
-      first-party, privacy-friendly traffic analytics for your HTML site. This
-      template is already configured using the following script:
-    </p>
-    <pre><code>&lt;script defer src="/_vercel/insights/script.js"&gt;&lt;/script&gt;</code></pre>
-    <p>
-      Learn more about
-      <a href="https://vercel.com/analytics">Vercel Analytics</a>.
-    </p>
-    <h2>Integrated with git</h2>
-    <p>
-      Deploying updates to your site is as simple as
-      <code>git push</code> thanks to Vercel's advanced
-      <a href="https://vercel.com/docs/concepts/git">Git Integration</a>.
-      Support for GitHub, GitLab, Bitbucket is zero-configuration, and with the
-      flexible Vercel CLI and API, you can integrate with any tool possible.
-    </p>
-    <p>
-      Learn more about
-      <a href="https://vercel.com/docs/concepts/git">Git Integration</a>.
-    </p>
-    <h2>Fast <code>gzip</code> compression</h2>
-    <p>
-      To help ensure the smallest possible file sizes for your static assets,
-      the Vercel Edge Network compresses files by default using
-      <code>gzip</code>. You can also optionally use
-      <code>brotli</code> compressesion if you prefer.
-    </p>
-    <p>
-      Learn more about
-      <a href="https://vercel.com/docs/concepts/edge-network/compression"
-        >compression</a
-      >.
-    </p>
-    <h2>Advanced routing configuration</h2>
-    <p>
-      Vercel gives you a variety of ways to configure the routing of your
-      website. For example, adding redirects, rewrites, or headers to your page.
-      While you can use <code>vercel.json</code> to define these through JSON,
-      you can also express your routing configuration as code using
-      <a href="https://vercel.com/docs/concepts/functions/edge-middleware"
-        >Vercel Edge Middleware</a
-      >.
-    </p>
-    <p>
-      Middleware runs before the
-      <a href="https://vercel.com/docs/concepts/edge-network/caching"
-        >Vercel Edge Network Cache</a
-      >, so you can configure routing exactly as your application needs. For
-      example, this template uses <code>middleware.js</code> defined in the root
-      of the repository to add additional security headers to the site:
-    </p>
-    <pre><code>referrer-policy: origin-when-cross-origin
-strict-transport-security: max-age=31536000; includeSubDomains; preload
-x-content-type-options: nosniff
-x-dns-prefetch-control: on
-x-frame-options: DENY</code></pre>
-    <p>
-      Learn more about
-      <a href="https://vercel.com/docs/concepts/functions/edge-middleware"
-        >Vercel Edge Middleware</a
-      >.
-    </p>
-  </body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+
+</head>
+<body>
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#">Al-ameen's <span>Portfolio.</span></a></div>
+            <ul class="menu">
+                <li><a href="#home" class="menu-btn">Home</a></li>
+                <li><a href="#about" class="menu-btn">About</a></li>
+                <li><a href="#services" class="menu-btn">Services</a></li>
+                <li><a href="#skills" class="menu-btn">Skills</a></li>
+                <li><a href="#Projects" class="menu-btn">Projects</a></li>
+                <li><a href="#contact" class="menu-btn">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Hello, my name is</div>
+                <div class="text-2">Odunukan Al-ameen</div>
+                <div class="text-3">And I'm a <span class="typing"></span></div>
+                
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About me</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="profilepic.jpg" alt="">
+                </div> 
+                <div class="column right">
+                    <div class="text">I'm Odunukan Al-ameen and I'm a <span class="typing-2"></span></div>
+                    <p>a passionate front-end developer with 2 years of experience creating beautiful and functional websites. I specialize in HTML, CSS, and JavaScript.
+                        Inspired by creativity and inclusivity, I aim to craft digital experiences that are not only visually stunning but also accessible to everyone.
+
+                        I'm also exploring app design and continuously expanding my skillset to stay ahead in this dynamic field. Whether it's bringing a bold vision to life or refining every pixel for perfection, I'm driven by a deep love for problem-solving and design.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="max-width">
+            <h2 class="title">My services</h2>
+            <div class="serv-content">
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-paint-brush"></i>
+                        <div class="text">Web Design</div>
+                        <p>I create visually stunning, user-friendly websites tailored to your goals. My designs are responsive, accessible, and optimized to deliver seamless user experiences across all devices.</p>
+                    </div>
+                </div>
+        
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-code"></i>
+                        <div class="text">Apps Design</div>
+                        <p>I approach each project with curiosity and a strong commitment to learning, ensuring every design aligns with modern UI/UX principles. Let's collaborate to bring simple, user-friendly app ideas to life!</p>
+                    </div>
+                </div>
+               </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <div class="max-width">
+            <h2 class="title">My skills</h2>
+            <div class="skills-content">
+                <div class="column left">
+                    <div class="text">My creative skills & experiences.</div>
+                    <p>a frontend develope fluent in html,css and javascript</p>
+                    <a href="#">Read more</a>
+                </div>
+                <div class="column right">
+                    <div class="bars">
+                        <div class="info">
+                            <span>HTML</span>
+                         
+                        </div>
+                        <div class="w3-light-grey">
+                            <div class="w3-container w3-red w3-center" style="width:90%">90%</div>
+                          </div><br>
+                          
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>CSS</span>
+                         
+                        </div>
+                        <div class="w3-light-grey">
+                            <div class="w3-container w3-red w3-center" style="width:100%">100%</div>
+                          </div><br>
+                          
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>JavaScript</span>
+                    
+                        </div>
+                        <div class="w3-light-grey">
+                            <div class="w3-container w3-red w3-center" style="width:40%">40%</div>
+                          </div><br>
+                          
+                    </div>
+                </div>
+            </div>
+            
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="Projects" id="Projects">
+        <div class="max-width">
+            <h2 class="title">My Projects</h2>
+            <div class="carousel owl-carousel">
+                <div class="card">
+                    <div class="box">
+                        <img src="preview1.png" alt="">
+                        <div class="text">A rps website</div>
+                        <p><a href="https://rock-paper-scissors-game-five-iota.vercel.app/">click me to check it out</a></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="preview4.jpg" alt="">
+                        <div class="text">Working Rubik's cube</div>
+                        <p><a href="#">click me to check it out</a></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="preview2.png" alt="">
+                        <div class="text">A spotify clone</div>
+                        <p><a href="#">click me to check it out</a></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="preview3.png" alt="">
+                        <div class="text"></div>
+                        <p><a href="#">click me to check it out</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contact me</h2>
+            <div class="contact-content">
+                <div class="column left">
+                    <div class="text">Get in Touch</div>
+                    <div class="icons">
+                        <div class="row">
+                            <i class="fas fa-user"></i>
+                            <div class="info">
+                                <div class="head">Name</div>
+                                <div class="sub-title">Odunukan Al-ameen</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class='fas fa-phone-alt'></i>
+                            <div class="info">
+                                <div class="head">Phone</div>
+                                <div class="sub-title">09131558493</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-envelope"></i>
+                            <div class="info">
+                                <div class="head">Email</div>
+                                <div class="sub-title">odunukanalameen1@gmail.com</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+        </div>
+    </section>
+
+    <script src="Porr.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</body>
 </html>

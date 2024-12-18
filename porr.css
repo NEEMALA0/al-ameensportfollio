@@ -681,6 +681,10 @@ footer span a:hover{
     .skills .skills-content .left .text{
         font-size: 19px;
     }
+
+    .skills .title::after{
+     background-color: black;
+}
     .contact .right form .fields{
         flex-direction: column;
     }
